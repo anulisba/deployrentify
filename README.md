@@ -103,5 +103,30 @@ wm-portfolio/
 
 - Node.js
 - npm or yarn
+  
+### Dependencies
+
+- **React**: Ensure that you have React installed to use React components and hooks.
+- **Slick Carousel**: Install `slick-carousel` for the carousel functionality and its CSS.
+- **React Slick**: Install `react-slick` to integrate Slick Carousel with React.
 
 ### Steps to Setup
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/username/wm-portfolio.git
+   cd wm-portfolio
+2. Install Dependencies
+   ```bash
+   npm install
+3. Install React and React DOM if not already installed:
+   ```bash
+   npm install react react-dom
+4. Install Slick Carousel:
+   ```bash
+   npm install slick-carousel
+5. Install React Slick:
+   ```bash
+   npm install react-slick
+
+
