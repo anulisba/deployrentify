@@ -69,7 +69,7 @@ wm-portfolio/
 │   ├── index.js
 ├── package.json
 └── ...
-
+```
 ### Directory and File Description
 
 - **public/**: Contains the static assets and the main HTML file.
