@@ -6,7 +6,6 @@ The White Matrix website is a [brief description of the website's purpose]. It i
 
 ## Project Structure
 
-```plaintext
 
 yarn test
 The project uses [testing framework] for unit and integration tests.
