@@ -2,40 +2,7 @@
 
 ## Project Overview
 
-The White Matrix website is a [brief description of the website's purpose]. It includes key features such as [list of key features].
-
-## Project Structure
-
-
-yarn test
-The project uses [testing framework] for unit and integration tests.
-
-Contributing
-Code Style
-Follow the [code style guidelines].
-Submitting Pull Requests
-Fork the repository.
-Create a new branch.
-Make your changes.
-Submit a pull request.
-License
-This project is licensed under the [License Name]. See the LICENSE file for more details.
-
-css
-Copy code
-
-You can copy this content into a file named `DOCUMENTATION.md` to create the source code documentation for the White Matrix website.
-update the .md file with all content not plain text
-ChatGPT
-Sure! Here is the updated DOCUMENTATION.md file with proper formatting:
-
-markdown
-Copy code
-# White Matrix Website Documentation
-
-## Project Overview
-
-The White Matrix website is designed to showcase the portfolio and services of White Matrix. It includes key features such as an interactive slider on the home page, detailed service pages, and a contact form.
+The White Matrix website is designed to showcase the portfolio and services of our company White Matrix. It includes key features such as an interactive slider on the home page, detailed service pages, and a contact form.
 
 ## Project Structure
 
@@ -79,10 +46,10 @@ wm-portfolio/
   - **assets/**: Images used specifically for the home page.
   - **components/**: Contains all React components and pages.
     - **slider/**: React components for the pages accessed via the home page slider.
-      - **ai.jsx**: AI service page component.
-      - **mobileapp.jsx**: Mobile App service page component.
-      - **software.jsx**: Software service page component.
-      - **voip.jsx**: VOIP service page component.
+      - **ai.jsx**: AI page component.
+      - **mobileapp.jsx**: Mobile App Development page component.
+      - **software.jsx**: Software Development page component.
+      - **voip.jsx**: VOIP page component.
     - **styled/**: Styled components for the banner and header.
       - **banner.jsx**: Styled component for the banner.
       - **header.jsx**: Styled component for the header.
@@ -128,5 +95,31 @@ wm-portfolio/
 5. Install React Slick:
    ```bash
    npm install react-slick
+6. Install Styled Components:
+   ```bash
+   npm install styled-components
+
+### Usage 
+
+Running the Deployment Server
+```bash
+npm start
+```
+
+## Code Style Guide
+
+
+### Font Family : Use 'Popppins', sans-serif for all elements.
+   ```bash
+   @import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+```
+### Class Naming Conventions
+- Use BEM (Block Element Modifier) naming conventions where appropriate
+- Prefix class names related to specific sections (e.g. `c-` for classes in careers page, `a-` for ai page)
+
+### Layout and Structure 
+- Use flexbox for layout and alignment
+- Ensure responsive design using media queries for different screen sizes mainly desktop, tablet and mobile view.
+
 
 
